@@ -6,6 +6,7 @@ import java.util.Map;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+// This model class represents product.
 @Document(collection = "products")
 public class Product {
 
